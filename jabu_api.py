@@ -14,7 +14,6 @@ GOOGLE_SHEETS_ID = "1LORq6auWGdhEyLV7Qas94g__lyLm2Xf0ybMedM13bPE"
 
 worksheet_name = "Sheet1!"
 cell_range_insert = "A:A"
-#values = [['A New Hope'], ['The Empire Strikes Back'], ['Return of the Jedi'], ['The Phantom Menace'], ['Attack of the Clones'], ['Revenge of the Sith']]
 values = api_call.api_movies()
 value_range_body = {
     "majorDimension":"ROWS", 
