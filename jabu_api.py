@@ -10,7 +10,7 @@ credentials = service_account.Credentials.from_service_account_file(
 
 service_sheets = build("sheets","v4", credentials=credentials)
 
-GOOGLE_SHEETS_ID = "1LORq6auWGdhEyLV7Qas94g__lyLm2Xf0ybMedM13bPE"
+GOOGLE_SHEETS_ID = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 worksheet_name = "Sheet1!"
 cell_range_insert = "A:A"
